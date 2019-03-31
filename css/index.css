@@ -1,3 +1,10 @@
 * {
   box-sizing: border-box;
 }
+footer {
+  border: 1px solid red;
+}
+footer input {
+  display: block;
+  text-align: center;
+}
