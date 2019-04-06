@@ -5,10 +5,43 @@ html {
 body {
   font-size: 1.6rem;
 }
+header {
+  border: 1px solid red;
+  height: 62rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+header div {
+  border: 1px solid red;
+  position: absolute;
+  left: 35%;
+}
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 1rem 1rem 10rem;
+  align-self: flex-end;
+  order: -1;
+  border: 5px solid purple;
+  position: relative;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: black;
+  margin-right: 1rem;
+}
 footer {
   border: 1px solid red;
 }
 footer input {
   display: block;
   text-align: center;
+}
+section {
+  border: 1px solid red;
+  margin: 1rem;
+  padding: 1rem;
 }
