@@ -1,5 +1,9 @@
-* {
+html {
   box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
 }
 footer {
   border: 1px solid red;
