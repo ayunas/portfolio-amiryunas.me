@@ -4,6 +4,10 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: 'Nanum Myeongjo', 'Patrick Hand';
+}
+h1 {
+  font-size: 6rem;
 }
 header {
   border: 1px solid red;
@@ -16,7 +20,22 @@ header {
 header div {
   border: 1px solid red;
   position: absolute;
-  left: 35%;
+  left: 25%;
+}
+header div button {
+  padding: 2rem;
+  font-size: 2rem;
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+}
+header div button:hover {
+  background: green;
+  cursor: pointer;
+  transition: 0.75s;
+}
+header div button:hover i {
+  transform: rotate(90deg);
+  transition: 0.5s;
 }
 header nav {
   display: flex;
@@ -31,7 +50,7 @@ header nav a {
   text-decoration: none;
   font-size: 3rem;
   color: black;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 footer {
   border: 1px solid red;
