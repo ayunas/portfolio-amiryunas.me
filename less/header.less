@@ -1,15 +1,18 @@
 header {
-    border: 1px solid red;
+
     height: 62rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+    background-image: url('../assets/artiom-vallat-1334915-unsplash.jpg');
+    background-size: cover;
     
     div {
-        border: 1px solid red;
+        border: 1px solid azure;
         position: absolute;
         left: 25%;
+        
         
         button {
             padding: 2rem;
@@ -18,7 +21,7 @@ header {
             border-radius: 1rem;
             
             &:hover {
-                background: green;
+                background: skyblue;
                 cursor: pointer;
                 transition: .75s;
                 i {
@@ -33,18 +36,39 @@ header {
     
     nav {
         display: flex;
+        flex-basis: 100%;
         justify-content: flex-start;
-        margin: 1rem 1rem 1rem 10rem;
         align-self: flex-end;
+        background-color: black;
         order: -1;
-        border: 5px solid purple;
         position: relative;
+        padding: 1rem;
         
         a {
             text-decoration: none;
             font-size: 3rem;
-            color: black;
+            color: white;
             margin-right: 2rem;
+            
+            &:hover {
+                color: skyblue;
+                transition: .5s;
+            }
+        }
+
+        #attribution {
+            background-color:black;
+            color:white;
+            text-decoration:none;
+            padding:4px 6px;
+            font-family:-apple-system, BlinkMacSystemFont, &quot; San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+            font-size:12px;
+            font-weight:bold;
+            line-height:1.2;
+            display:inline-block;
+            border-radius:3px;
+            display:inline-block;
+            padding:2px 3px;
         }
         
     }

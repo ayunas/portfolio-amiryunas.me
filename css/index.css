@@ -10,15 +10,16 @@ h1 {
   font-size: 6rem;
 }
 header {
-  border: 1px solid red;
   height: 62rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   text-align: center;
+  background-image: url('../assets/artiom-vallat-1334915-unsplash.jpg');
+  background-size: cover;
 }
 header div {
-  border: 1px solid red;
+  border: 1px solid azure;
   position: absolute;
   left: 25%;
 }
@@ -29,7 +30,7 @@ header div button {
   border-radius: 1rem;
 }
 header div button:hover {
-  background: green;
+  background: skyblue;
   cursor: pointer;
   transition: 0.75s;
 }
@@ -39,18 +40,23 @@ header div button:hover i {
 }
 header nav {
   display: flex;
+  flex-basis: 100%;
   justify-content: flex-start;
-  margin: 1rem 1rem 1rem 10rem;
   align-self: flex-end;
+  background-color: black;
   order: -1;
-  border: 5px solid purple;
   position: relative;
+  padding: 1rem;
 }
 header nav a {
   text-decoration: none;
   font-size: 3rem;
-  color: black;
+  color: white;
   margin-right: 2rem;
+}
+header nav a:hover {
+  color: skyblue;
+  transition: 0.5s;
 }
 footer {
   border: 1px solid red;
